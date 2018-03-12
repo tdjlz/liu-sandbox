@@ -1,0 +1,6 @@
+.third-division{
+    @include breakpoint($small){
+        @include span(4 of 5);
+        background:yellow;
+    }
+}

@@ -1,0 +1,127 @@
+	@import "../susy/sass/susy";
+	@import "../breakpoint-sass/stylesheets/breakpoint";
+
+	$small: 0px;
+	$bigmobile: 350px;
+	$start: 0px 767px;
+	$small-tablet: 600px;	
+	$tablet-bp: 768px;
+	$tablet-landscape-bp: 1024px;
+	$small-desktop: 0px 1132px;	
+	$tablet-dektop-bp: 768px 1132px;
+	$desktop-bp: 1132px;
+
+  	$susy-before: before; 
+  	$susy-after: after;
+  	$susy-split: split;
+  	$susy-inside: inside;
+  	$susy-inside-static: inside-static;
+
+	$susy: (
+		columns: 2,
+		container: 1120px,
+		gutters: 1/4,
+		gutter-position: split,
+		global-box-sizing: border-box,
+		// debug: (image: show)
+	);
+
+
+	// .constrain-me {
+	// 	@include breakpoint($desktop-bp) {
+	// 		max-width: 1132px;
+	// 		margin: 0 auto;
+	// 	}
+	// }
+
+	// .alternative-colouring-container {
+	// 	.alternative-colouring {
+	// 		li {
+	// 			p {
+	// 				display: inline;
+	// 				margin-left: 20px;
+	// 				font-size: large;					
+	// 			}
+	// 			&:before {
+	// 				color: $accent-colour; /* set color to red */
+	// 				content:"\2022"; /* /2022 is the numerical unicode for &bull; */
+	// 				font-size:1.5em; /* set the font-size of the bullet if necessary. Make sure to use em or %*/
+	// 				padding-right:.25em; /* give the bullet some padding from the text Make sure to use em*/
+	// 				position:absolute;
+	// 				top:.1em;
+	// 			}
+	// 			list-style:none;
+	// 		}
+	// 		p {				
+	// 			color: white;
+	// 		}
+	// 	}
+	// 	background: #3C3C3B;
+	// }
+
+	// .clients-section.row.brand {
+	// 	@include breakpoint(940px) { 
+	// 		padding-left: 0px;
+	// 	}
+	// }
+
+	// .gallery-button {
+	// 	&:hover {
+	// 		color: white;
+	// 	}
+	// 	margin: 20px auto 0;
+	// 	display: block;
+	// 	background: $accent-colour;
+	// 	clear: both;
+	// 	color: white;
+	// 	width: 250px;
+	// 	text-align: center;
+	// 	padding: 10px 0 15px;
+	// 	font-size: 1.15em;
+	// }
+
+	// .parallax {
+	// 	@include breakpoint($desktop-bp) {
+	// 		.position-text {
+	// 			height: 400px;
+	// 			min-height: 400px;
+	// 		}
+	// 		.parallax-container {
+	// 			height: 400px;
+	// 			min-height: 400px;
+	// 		}
+	// 		height: 400px;
+	// 		min-height: 400px !important;
+	// 	}
+	// }
+
+	// .twelve {
+	// 	.left-content {
+	// 		img.service_images {
+	// 			max-width: 175px;
+	// 			float: left;
+	// 			padding: 0 20px 20px 0;
+	// 			min-height: 148px;				
+	// 		}
+	// 	}
+	// }
+
+	// .parallax {
+	// 	.row {
+	// 		@include breakpoint($desktop-bp) {
+	// 			padding-left: 0px;
+	// 		}
+	// 	}
+	// }
+
+	// #gallery-section, #contact-section {
+	// 	@include breakpoint($desktop-bp) {
+	// 		padding-left: 0px;
+	// 	}
+	// }
+
+	// #header {
+	// 	a {
+	// 		color: $accent-colour;
+	// 	}
+	// }

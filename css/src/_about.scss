@@ -1,0 +1,6 @@
+.first-division {
+	@include breakpoint($small) {
+		@include span(1 of 1);
+		background: black;
+	color: white;}
+}

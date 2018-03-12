@@ -1,0 +1,49 @@
+{
+  "name": "typi",
+  "version": "2.1.0",
+  "description": "[ ![Codeship Status for zellwk/typi](https://codeship.com/projects/4d0e1e40-9b6c-0133-8b7e-7a41677d4861/status?branch=master)](https://codeship.com/projects/126777)",
+  "main": "scss/_typi.scss",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "gulp-mocha": "^2.2.0",
+    "mocha": "^2.3.4",
+    "sass-true": "^2.0.3"
+  },
+  "scripts": {
+    "start": "gulp",
+    "test": "mocha test/test_sass.js"
+  },
+  "author": {
+    "name": "Zell Liew",
+    "email": "zellwk@gmail.com"
+  },
+  "license": "ISC",
+  "gitHead": "051c2e532e3af4a51233209bc1e071ef90378935",
+  "_id": "typi@2.1.0",
+  "_shasum": "c09797f9076338490fce48182e7ff33dd997094f",
+  "_from": "typi@latest",
+  "_npmVersion": "3.6.0",
+  "_nodeVersion": "5.6.0",
+  "_npmUser": {
+    "name": "zellwk",
+    "email": "zellwk@gmail.com"
+  },
+  "dist": {
+    "shasum": "c09797f9076338490fce48182e7ff33dd997094f",
+    "tarball": "https://registry.npmjs.org/typi/-/typi-2.1.0.tgz"
+  },
+  "maintainers": [
+    {
+      "name": "zellwk",
+      "email": "zellwk@gmail.com"
+    }
+  ],
+  "_npmOperationalInternal": {
+    "host": "packages-12-west.internal.npmjs.com",
+    "tmp": "tmp/typi-2.1.0.tgz_1460365338133_0.5994091245811433"
+  },
+  "_resolved": "https://registry.npmjs.org/typi/-/typi-2.1.0.tgz"
+}

@@ -1,0 +1,6 @@
+.second-division {
+	@include breakpoint($small) {
+        @include span(3 of 4);
+        background: blue;
+	}
+}

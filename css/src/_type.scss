@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css?family=Karma');
+
+	$h4-colour: #6D91B1;
+
+	// Typi declarations
+	@import '../typi/scss/typi';
+  @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700');
+
+	html {
+		font-size: 14pt !important;
+	}
+
+	$breakpoints: (
+	  small: 1px,
+	  medium: 750px,
+	  large: 1200px,
+	);
+
+	$typi: (
+	  null: (16px, 1.4),
+	  small: 26px,
+	  medium: 26px,
+	  large: 26px
+	);
+
+	$h1-map: (
+	  null: (3em, 1.05),
+	  small: (2em, 1.25),
+	  medium: (2em, 1.125),
+	  large: (3em, 1.05)
+	  );
+
+	$h2-map: (
+	  null: (2.25em, 1.25),
+	  small: (1.625em, 1.53),
+	  medium: (2em, 1.25),
+	  large: (2.25em, 1.25)
+	  );
+
+	$h3-map: (
+	  null: (1.375em, 1.136),
+	  small: (1.375em, 1.136),
+	  medium: (1.5em, 1.25),
+	  large: (1.75em, 1.125)
+	  );
+
+
+	$h4-map: (
+	  null: (1.125em, 1.222),
+	  small: (1.125em, 1.111),
+	  medium: (1.125em, 1.222),
+	  large: (1.125em, 1.222)
+	  );
+
+	$p-map: (
+	  null: (1em, 1.4),
+	  small: (1em, 1.5),
+	  medium: (1em, 1.4),
+	  large: (1em, 1.4)
+	  );
+
+	h1 { @include typi($h1-map)}
+	h2 { @include typi($h2-map)}
+	h3 { @include typi($h3-map)}
+	h4 { @include typi($h4-map) }
+	p { @include typi($p-map) }
+	a { @include typi($p-map) }
+
+	html {
+		@include typi-base();
+	}
+
+	/* Typeface Declarations */
+	$main-regular-typeface: 'Karma';
+	$secondary-regular-typeface: 'Open Sans';
+
+	h1, h2, h3, h4, h5, h6 {
+		font-family: $main-regular-typeface;
+	}
+	p, a {
+		font-family: $secondary-regular-typeface;
+	}
+	p {
+		font-size: 1em;
+	}
+
+	h3 {
+		margin-bottom: 15px;
+	}
+	h4 {
+		color: $h4-colour;
+	}
+
+	a, a > * {
+		font-family: $main-regular-typeface !important;
+		color: white !important; 
+	}
